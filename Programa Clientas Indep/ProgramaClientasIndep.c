@@ -27,6 +27,8 @@ int main()
 
     printf ("El total de ventas es de:%d\n\n",contVentasTotales);
 
+    system ("pause");
+
 
     return 0;
 }
