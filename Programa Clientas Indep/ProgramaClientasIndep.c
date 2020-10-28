@@ -21,7 +21,7 @@ int main()
                 if (sarten>utens){
                 printf("El producto mas vendido fue El Sarten\n\n");
                 }else {
-                    if(utens>sarten){printf("Los productos mas vendidos fueron los Utensillos\n\n");}
+                    if(utens>sarten){printf("Los productos mas vendidos fueron los Utensilios\n\n");}
                     else { printf ("Mas de un producto genero buenas ventas\n\n");}
                     }}
 
@@ -53,7 +53,7 @@ char categoria, producto;
 
         while (continuar!=0)
         {
-            printf ("Ingrese el tipo de producto: O-Olla,S-Sarten o U-Utensillos de cocina\n");
+            printf ("Ingrese el tipo de producto: O-Olla,S-Sarten o U-Utensilios de cocina\n");
             fflush (stdin);
             scanf ("%c", &producto);
 
@@ -77,7 +77,7 @@ char categoria, producto;
                 contVentas++;
                 break;
 
-            default: printf ("Ingrese el tipo de producto: O-Olla,S-Sarten o U-Utensillos de cocina\n");
+            default: printf ("Ingrese el tipo de producto: O-Olla,S-Sarten o U-Utensilios de cocina\n");
                 break;
             }
 
@@ -95,7 +95,7 @@ char categoria, producto;
             subt3=subt3-((subt3*20)/100);
             printf ("Total de ollas es:%f\n\n",subt1);
             printf ("Total de sartenes es:%f\n\n", subt2);
-            printf ("Total de utensillos de cocina es:%f\n\n", subt3);
+            printf ("Total de utensilios de cocina es:%f\n\n", subt3);
         }
             else {
             if (categoria=='C')
@@ -103,7 +103,7 @@ char categoria, producto;
             printf ("Total vecina %d:%f\n\n",dni,(subt1+subt2+subt3));
             printf ("Total de ollas es:%f\n\n",subt1);
             printf ("Total de sartenes es:%f\n\n", subt2);
-            printf ("Total de utensillos de cocina es:%f\n\n", subt3);
+            printf ("Total de utensilios de cocina es:%f\n\n", subt3);
 
         }
 
