@@ -21,7 +21,7 @@ int main()
                 if (sarten>utens){
                 printf("El producto mas vendido fue El Sarten\n\n");
                 }else {
-                    if(utens>sarten){printf("Los productos mas vendidos fueron los Utensilios\n\n");}
+                    if(utens>sarten && utens>olla){printf("Los productos mas vendidos fueron los Utensilios\n\n");}
                     else { printf ("Mas de un producto genero buenas ventas\n\n");}
                     }}
 
